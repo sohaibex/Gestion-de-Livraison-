@@ -1,0 +1,136 @@
+<div class="account-pages my-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="card">
+          <div class="card-body p-0">
+            <div class="row">
+              <div class="col-lg-6 p-5">
+                <div class="mx-auto mb-5">
+                  <a routerLink="/account/login">
+                    <img src="assets/images/logo.png" alt="" height="24" />
+                    <h3 class="d-inline align-middle ml-1 text-logo">Beekom</h3>
+                  </a>
+                </div>
+
+                <h6 class="h5 mb-0 mt-4">Creer Votre Compte</h6>
+
+
+                <form class="authentication-form" [formGroup]="signupForm"
+                  (ngSubmit)="onSubmit()" novalidate>
+
+                  <!-- <app-ui-preloader [display]="loading"></app-ui-preloader> -->
+                  <ngb-alert type="danger" *ngIf="error" [dismissible]="false">{{
+                    error }}</ngb-alert>
+
+                  <div class="form-group">
+                    <label class="form-control-label">Name</label>
+                    <div class="input-group input-group-merge">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="icon-dual" data-feather="user"
+                            appFeatherIcon></i>
+                        </span>
+                      </div>
+                      <input type="text" class="form-control"
+                        formControlName="name"
+                        [ngClass]="{ 'is-invalid': submitted && f.name.errors }"
+                        id="name"
+                        placeholder="Nom Complet" />
+
+                      <div *ngIf="submitted && f.name.errors"
+                        class="invalid-feedback">
+                        <div *ngIf="f.name.errors.required">Le nom et
+                          obligatoire</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-control-label">Email</label>
+                    <div class="input-group input-group-merge">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="icon-dual" data-feather="mail"
+                            appFeatherIcon></i>
+                        </span>
+                      </div>
+                      <input type="email" class="form-control"
+                        formControlName="email"
+                        [ngClass]="{ 'is-invalid': submitted && f.email.errors
+                        }" id="email"
+                        placeholder="" />
+                      <div *ngIf="submitted && f.email.errors"
+                        class="invalid-feedback">
+                        <div *ngIf="f.email.errors.required">Email est
+                          obligatoire</div>
+                        <div *ngIf="f.email.errors.email">Email doit etre valide
+                          avec l adresse email</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-control-label">Mot de Passe</label>
+                    <div class="input-group input-group-merge">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="icon-dual" data-feather="lock"
+                            appFeatherIcon></i>
+                        </span>
+                      </div>
+                      <input type="password" formControlName="password"
+                        [ngClass]="{ 'is-invalid': submitted &&
+                        f.password.errors }" class="form-control" id="password"
+                        placeholder="Enter Votre Mot de passe" />
+                      <div *ngIf="submitted && f.password.errors"
+                        class="invalid-feedback">
+                        <div *ngIf="f.password.errors.required">Mot de passe et
+                          obligatoire</div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="form-group mb-0 text-center">
+                    <button class="btn btn-primary btn-block" type="submit">Sign
+                      Up</button>
+                  </div>
+                </form>
+              </div>
+
+              <div class="col-lg-6 d-none d-md-inline-block">
+                <div class="auth-page-sidebar">
+                  <div class="overlay"></div>
+                  <div class="auth-user-testimonial">
+                    <p class="font-size-24 font-weight-bold text-white mb-1">Beekom
+                      Light your imagination</p>
+
+
+                    <p>- Admin User</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div> <!-- end card-body -->
+        </div>
+        <!-- end card -->
+
+        <div class="row mt-3">
+          <div class="col-12 text-center">
+            <p class="text-muted">Avez vous deja un compte? <a
+                routerLink="/account/login"
+                class="text-primary font-weight-bold ml-1">Login</a></p>
+          </div> <!-- end col -->
+        </div>
+        <!-- end row -->
+
+      </div> <!-- end col -->
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</div>
+<!-- end page -->
