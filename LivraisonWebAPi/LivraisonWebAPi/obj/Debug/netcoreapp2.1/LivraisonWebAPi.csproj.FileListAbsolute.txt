@@ -1,0 +1,15 @@
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\obj\Debug\netcoreapp2.1\LivraisonWebAPi.csprojAssemblyReference.cache
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\obj\Debug\netcoreapp2.1\LivraisonWebAPi.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\obj\Debug\netcoreapp2.1\LivraisonWebAPi.RazorAssemblyInfo.cache
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\obj\Debug\netcoreapp2.1\LivraisonWebAPi.RazorAssemblyInfo.cs
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\obj\Debug\netcoreapp2.1\EFCorePluralizer.cs
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\obj\Debug\netcoreapp2.1\LivraisonWebAPi.AssemblyInfoInputs.cache
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\obj\Debug\netcoreapp2.1\LivraisonWebAPi.AssemblyInfo.cs
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\bin\Debug\netcoreapp2.1\LivraisonWebAPi.deps.json
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\bin\Debug\netcoreapp2.1\LivraisonWebAPi.runtimeconfig.json
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\bin\Debug\netcoreapp2.1\LivraisonWebAPi.runtimeconfig.dev.json
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\bin\Debug\netcoreapp2.1\LivraisonWebAPi.dll
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\bin\Debug\netcoreapp2.1\LivraisonWebAPi.pdb
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\obj\Debug\netcoreapp2.1\LivraisonWebAPi.RazorTargetAssemblyInfo.cache
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\obj\Debug\netcoreapp2.1\LivraisonWebAPi.dll
+C:\Users\pc\Documents\LivraisonWebAPi\LivraisonWebAPi\obj\Debug\netcoreapp2.1\LivraisonWebAPi.pdb
